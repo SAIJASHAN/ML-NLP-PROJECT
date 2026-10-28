@@ -1,0 +1,6 @@
+category,precision,recall,f1_score,support
+card_arrival,0.5,1.0,0.6667,1
+card_linking,1.0,1.0,1.0,1
+exchange_rate,1.0,1.0,1.0,1
+pin_blocked,1.0,1.0,1.0,1
+transfer_timing,0.0,0.0,0.0,1

@@ -53,3 +53,10 @@ TOP_K_PREDICTIONS = 3
 # Release Gate Criteria
 RELEASE_GATE_MIN_MACRO_F1 = 0.82
 RELEASE_GATE_MAX_F1_DROP = 0.005  # Max allowed degradation vs champion (0.5%)
+
+# MLflow Tracking & Registry Configuration
+DEFAULT_MLFLOW_DB_PATH = (PROJECT_ROOT / "mlflow.db").resolve().as_posix()
+MLFLOW_TRACKING_URI = f"sqlite:///{DEFAULT_MLFLOW_DB_PATH}"
+MLFLOW_EXPERIMENT_NAME = "ComplaintOps-Banking77"
+MLFLOW_MODEL_NAME = "BankingIntentClassifier"
+

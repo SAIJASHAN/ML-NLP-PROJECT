@@ -526,6 +526,6 @@
     77,
     77
   ],
-  "train_duration_sec": 7.1,
-  "eval_duration_sec": 0.09
+  "train_duration_sec": 4.65,
+  "eval_duration_sec": 0.04
 }

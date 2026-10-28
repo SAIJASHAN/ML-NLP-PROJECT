@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-28T14:30:29.035910+00:00",
+  "saved_at": "2026-10-28T15:01:57.584400+00:00",
   "model_type": "TF-IDF + LogisticRegression",
   "num_classes": 77,
   "vocab_size": 10000,
@@ -541,8 +541,8 @@
       77,
       77
     ],
-    "train_duration_sec": 7.1,
-    "eval_duration_sec": 0.09
+    "train_duration_sec": 4.65,
+    "eval_duration_sec": 0.04
   },
   "extra": {
     "dataset_inspection": {
