@@ -17,6 +17,9 @@ htmlcov/
 # MLflow tracking local files
 mlruns/
 mlartifacts/
+*.db
+*.sqlite
+*.sqlite3
 
 # Data & Large artifacts
 data/raw/

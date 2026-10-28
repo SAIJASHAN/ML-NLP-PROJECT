@@ -126,7 +126,10 @@ def train_and_evaluate(
         })
         mlflow.log_artifact(str(metrics_path), artifact_path="evaluation")
         mlflow.log_artifact(str(figure_path), artifact_path="figures")
-        mlflow.sklearn.log_model(pipeline, artifact_path="model")
+        try:
+            mlflow.sklearn.log_model(pipeline, name="model")
+        except TypeError:
+            mlflow.sklearn.log_model(pipeline, artifact_path="model")
         mlflow.end_run()
         logger.info("MLflow logging completed.")
 
