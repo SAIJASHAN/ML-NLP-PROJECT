@@ -28,3 +28,6 @@ jobs:
 
       - name: Run automated tests
         run: python -m pytest tests/ -q
+
+      - name: Build Docker image
+        run: docker build -t complaintops:latest .
