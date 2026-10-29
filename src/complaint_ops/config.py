@@ -49,6 +49,13 @@ LR_SOLVER = "lbfgs"
 # Serving & Decision Thresholds
 LOW_CONFIDENCE_THRESHOLD = 0.35
 TOP_K_PREDICTIONS = 3
+API_MAX_BATCH_SIZE = 32
+API_MAX_TEXT_LENGTH = 5000
+
+# API limits
+API_MAX_TEXT_LENGTH = 500  # characters per request
+API_MAX_BATCH_SIZE = 50  # maximum number of texts in a batch request
+
 
 # Release Gate Criteria
 RELEASE_GATE_MIN_MACRO_F1 = 0.82
